@@ -66,3 +66,13 @@ li {
     border: 1px solid white;
     background-color: #1ABC9C;
 }
+
+/* section-4 */
+
+.line-3 {
+    background-color: lightgray;
+    height: 2px;
+}
+.info {
+    white-space: nowrap;
+}
