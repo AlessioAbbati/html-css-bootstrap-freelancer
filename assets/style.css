@@ -1,0 +1,38 @@
+header {
+    background-color: #2C3E50;
+    color: white;
+}
+.contents {
+    white-space: nowrap;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin-inline: 1rem;
+}
+
+/* main */
+
+main {
+    color: white;
+}
+.s-1 {
+    background-color: #1ABC9C;
+}
+.avatar {
+    width: 50%;
+}
+.line {
+    background-color: white;
+    width: 5rem;
+    height: 2px;
+    margin-top: .8rem;
+}
+.col-md-auto .contents  ul li {
+    margin-inline: .2rem;
+}
+.col-md-auto .contents  ul {
+    padding-right: 2rem;
+}
