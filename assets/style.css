@@ -2,9 +2,6 @@ header {
     background-color: #2C3E50;
     color: white;
 }
-.contents {
-    white-space: nowrap;
-}
 ul {
     list-style: none;
     display: flex;
@@ -15,11 +12,11 @@ li {
 
 /* main */
 
-main {
-    color: white;
-}
+/* section-1 */
+
 .s-1 {
     background-color: #1ABC9C;
+    color: white;
 }
 .avatar {
     width: 50%;
@@ -35,4 +32,37 @@ main {
 }
 .col-md-auto .contents  ul {
     padding-right: 2rem;
+}
+
+/* section-2 */
+
+.s-2 {
+   color: #2C3E50;
+}
+.line-2 {
+    background-color: #2C3E50;
+    width: 5rem;
+    height: 2px;
+    margin-top: .8rem;
+}
+.cards {
+    width: 100%;
+}
+.card {
+    width: 100%;
+}
+
+/* section-3 */
+
+.s-3 {
+    background-color: #1ABC9C;
+    color: white;
+}
+.contents p {
+    text-align: left;
+}
+.btn {
+    color: white;
+    border: 1px solid white;
+    background-color: #1ABC9C;
 }
