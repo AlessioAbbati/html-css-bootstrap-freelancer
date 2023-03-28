@@ -76,3 +76,33 @@ li {
 .info {
     white-space: nowrap;
 }
+
+/* footer */
+
+/* section-5 */
+
+.s-5 {
+    background-color: #3A546D;
+    color: white;
+}
+.social i {
+    border: 1px solid white;
+    padding: .5rem;
+    color: white;
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+}
+a {
+    text-decoration: none;
+}
+
+/* section-6 */
+
+.s-6 {
+    background-color: #2C3E50;
+    color: white;
+}
+.copy {
+    white-space: nowrap;
+}
