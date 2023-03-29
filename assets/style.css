@@ -6,9 +6,6 @@ ul {
     list-style: none;
     display: flex;
 }
-li {
-    margin-inline: 1rem;
-}
 
 /* main */
 
