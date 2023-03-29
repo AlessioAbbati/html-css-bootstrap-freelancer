@@ -55,11 +55,23 @@ ul {
 }
 .cards {
     width: 100%;
+    position: relative;
 }
 .card {
     width: 100%;
 }
-
+.plus {
+    position: absolute;
+    font-size: 3rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+}
+.plus:hover {
+    opacity: 1;
+}
 /* section-3 */
 
 .s-3 {
