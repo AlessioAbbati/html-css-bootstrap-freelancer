@@ -15,21 +15,26 @@ ul {
     color: white;
 }
 .avatar {
-    width: 50%;
+    width: 20%;
+}
+.star {
+    display: flex;
+    justify-content: center;
+}
+.star-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .line {
     background-color: white;
     width: 5rem;
     height: 2px;
-    margin-top: .8rem;
+    margin-top: .4rem;
 }
-.col-md-auto .contents  ul li {
-    margin-inline: .2rem;
+.menu {
+    display: flex;
+    justify-content: center;
 }
-.col-md-auto .contents  ul {
-    padding-right: 2rem;
-}
-
 /* section-2 */
 
 .s-2 {
