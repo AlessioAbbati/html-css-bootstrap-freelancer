@@ -65,12 +65,9 @@ ul {
 
 /* section-4 */
 
-.line-3 {
-    background-color: lightgray;
-    height: 2px;
-}
-.info {
-    white-space: nowrap;
+.form-label {
+    display: flex;
+    justify-content: flex-start;
 }
 
 /* footer */
