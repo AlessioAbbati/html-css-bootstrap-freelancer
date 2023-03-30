@@ -202,7 +202,7 @@
                 <div class="row">
                     <div class="col">
                       <div class="contents">
-                          <button class="btn">Download</button>
+                        <button type="button" class="btn btn-primary btn-lg"><i class="fa-sharp fa-solid fa-download"></i> Download</button>
                       </div>
                     </div>
                 </div>
@@ -238,28 +238,34 @@
                 </div>
 
                 <div class="row">
-                    <label for="inputName5" class="form-label">Name</label>
-                    <input type="Name" id="inputName5" class="form-control" aria-labelledby="passwordHelpBlock">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                    </div>
                 </div>
                 <div class="row">
-                    <label for="inputEmailAddress5" class="form-label">Email Address</label>
-                    <input type="Email Address" id="inputEmailAddress5" class="form-control" aria-labelledby="passwordHelpBlock">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
                 </div>    
                 <div class="row">
-                    <label for="inputPhoneNumber5" class="form-label">Phone Number</label>
-                    <input type="Phone Number" id="inputPhoneNumber5" class="form-control" aria-labelledby="passwordHelpBlock">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Phone number">
+                    </div>
                     
-                </div>    
-                <div class="row">
-                    <label for="inputMessage5" class="form-label">Message</label>
-                    
-                </div>  
+                </div>   
                 
-                <div class="row py-5">
-                    <input type="Message" id="inputMessage5" class="form-control" aria-labelledby="passwordHelpBlock">
+                
+                <div class="row">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
                     <div class="col-1">
                         <div class="contents">
-                            <button class="btn">send</button>
+                            <input class="btn btn-primary" type="submit" value="Send">
                         </div>
                     </div>
                 </div>
